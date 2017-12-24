@@ -1,2 +1,16 @@
 docker build -f ./Dockerfile -t centos:cakephp --no-cache=true .
 docker run -d --privileged -p 8080:80 -v /Users/isamu/Desktop/cakephp2:/var/www/html --name cakephp001 --link mysql01:db001 centos:cakephp /sbin/init
+select user , host from mysql.user;
+
+### docker file ###
+//ファイルを送る
+ADD
+/etc/yum.repos.d/
+//シェル実行
+a
+ENTRYPOINT
+tail -f /dev/null
+//作業ディレクトリ
+
+WORKDIR /tmpなど
+cdの代わりに使用する。
